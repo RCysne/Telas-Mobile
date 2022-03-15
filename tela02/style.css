@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.profile {
+    width: 100%;
+    position: relative;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo img {
+    width: 10rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px thistle;
+}
+
+.profile-icon {
+    position: absolute;
+    left: 14rem;
+    bottom: .2rem;
+    color: red;
+}
+
+
+/* ---FORM ---- */
+
+form {
+    width: 100%;
+}
+
+.form-inputs {
+    width: 90%;
+    margin: 20px auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* --- FOOTER ---- */
+
+footer {
+    background-color: #dfdfdf;
+    height: 50px;
+}
+
+.footer-menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-menu button {
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px grey;
+}
+
+.center-icon {
+    color: red;
+}

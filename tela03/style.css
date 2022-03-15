@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(245, 245, 245);
+}
+
+
+/* --- HEADER --- */
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+}
+
+.back {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.back button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.back p {
+    margin-left: 2px;
+    font-size:12\5px;
+}
+
+.header-title {
+    width: 70%;
+    text-align: center;
+}
+
+.header-title h1 {
+    font-weight: 500;
+}
+
+
+/* --- CARDS ----- */
+
+
+.card-1 {
+    background: white;
+    margin: 20px auto;
+    width: 90%;
+    padding:10px;
+    box-shadow: 1px 1px 5px rgb(214, 214, 214);
+    border-radius:5px
+}
+
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.row-1 h2 {
+    font-weight:400;
+}
+
+.row-1 button {
+    border: none;
+    background: none;
+    color: rgb(250, 106, 106);
+    cursor: pointer;
+}
+
+.row-2 {
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.row-2 p {
+    margin-right: 10px;
+    color: #a4a4a4;
+    font-size:15px
+}
+
+.row-3 {
+    display: flex;
+}
+
+.adult, .child {
+    margin: 5px 5px 5px 0;
+    display: flex;
+    align-items: center
+}
+
+h4 {
+    color: #a4a4a4;
+}
+
+.adult button, .child button {
+    width: 20px;
+    height: 15px;
+    border: none;
+    margin-left: 10px;
+    box-shadow: 1px 1px 1px rgb(173, 173, 173);
+    color: rgb(250, 106, 106);
+    cursor: pointer;
+}
+
+.adult p, .child p {
+    width: 20px;
+    text-align: center;
+    color: rgb(250, 106, 106);
+    
+}
+
+.btn-apply {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: right;
+    color: rgb(250, 106, 106);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
