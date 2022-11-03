@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(233, 232, 232);
+    background-color: rgb(246, 248, 251);
 }
 
 header {
@@ -14,6 +14,15 @@ header {
     justify-content: space-between;
     margin-top: .8rem;
     margin-bottom: 10px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.menu-title h1 {
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -26,36 +35,55 @@ article {
     margin: .2rem 0;
 }
 
+.menu-top .material-icons {
+    font-size: 1.5rem;
+    margin-left: .2rem;
+}
+
+.search .material-icons {
+    font-size: 1.5rem;
+    margin-right: .2rem;
+}
+
 .container {
     margin: 10px auto;
-    width: 100%;
-    height: 80%;
+    width: 95%;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
-    background-color: #d6d6d6;
-    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: .5px .5px 15px #e8e8e8;
 }
 
 .col-1, .col-2{
-    width: 47%;
+    width: 55%;
 }
 
 .col-1 img {
     width: 90%;
-    height: 90%;
-    margin: .5rem 0;
-    object-fit: cover;
+    height: 80%;
+    margin: .5rem 0 .5rem .3rem ;
+    object-fit: ;
     border-radius: 5px;
 }
 
 .col-2 {
     margin: .5rem auto;
+    font-size: .7rem;
+
 }
 
 .col-2  h3{
-    font-size: 1rem;
+    font-size: .8rem;
     display: flex;
     justify-content: center;
+    font-size: .7rem;
+    margin-bottom: .5rem;
+}
+
+.material-icons {
+    font-size: 1rem;
 }
 
 .col-3 {
@@ -67,12 +95,12 @@ article {
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    margin: 1.1rem auto;
+    margin: .3rem auto;
 }
 
 .stars {
     display: flex;
-    margin-top: .8rem;
+    margin-top: .2rem;
     justify-content: center;
 }
 
